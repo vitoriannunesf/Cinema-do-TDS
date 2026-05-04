@@ -1,7 +1,7 @@
 # Simulador de Pedido
 
 Projeto utilizando **HTML, css E JavaScript**. O usuário escolhe itens e o sistema calcula o total com desconto e entrega
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/"https://github.com/user-attachments/assets/348cd504-7b70-49f1-b878-4673a9458931" />
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/4029cada-f72a-47cb-84b3-bede359100dd" />
 " />
 
 
@@ -18,5 +18,3 @@ Projeto utilizando **HTML, css E JavaScript**. O usuário escolhe itens e o sist
 - Seleção de itens
 - Cálculo aitomático
 - Desconto
-- Taxa de Entrega
-
