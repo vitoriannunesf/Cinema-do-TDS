@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProjetoDeFilmes</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <!-- Container principal da pagina-->
+     <div class="container"> 
+        <!-- Titulo principal-->
+         <h1>Cinema do TDS261T🍿🎥</h1>
+         <!-- Subtitulo-->
+          <p class="subtitulo">
+            Bem-Vindo ao cinema do TDS! Aqui. Aqui você encontra os melhores filmes em cartaz!
+          </p>
+          <!-- Area que contem todos os produtos -->
+           <div class="cards">
+            <!-- CARD = UM PRODUTO-->
+            <!-- Usamos label para que clicar no card marque cheackbox-->
+             <label class="card">
+                <!-- Checkbox que identifica se o item esta selecionado-->
+                 <input type="checkbox" id="A Culpa É Das Estrelas">
+                 <!-- Imagem do produto-->
+                  <img src="Assets/aCulpaÉDasEstrelas.jpg" alt="A Culpa É Das Estrelas">
+                  <!-- Nome do produto-->
+                   <h2> A Culpa É Das Estrelas</h2>
+                   <!-- Descrição-->
+                    <P> "A Culpa é das Estrelas", de John Green, narra o romance emocionante entre Hazel Grace, uma adolescente com câncer terminal de pulmão, e Augustus Waters, um ex-jogador de basquete que perdeu uma perna devido a um osteossarcoma. Eles se conhecem em um grupo de apoio e compartilham uma intensa jornada de amor, reflexões sobre a vida e a morte.</P>
+                    <!-- Preço-->
+                     <span> R$ 22,00 </span>
+             </label>
+
+             <label class="card">
+                <!-- Checkbox que identifica se o item esta selecionado-->
+                 <input type="checkbox" id="A Freira">
+                 <!-- Imagem do produto-->
+                  <img src="Assets/aFreira.jpg" alt="A Freira">
+                  <!-- Nome do produto-->
+                   <h2> A Freira </h2>
+                   <!-- Descrição-->
+                    <P> "A Freira" (2018), parte do universo Invocação do Mal, segue um padre assombrado e uma noviça enviados pelo Vaticano à Romênia para investigar o suicídio de uma freira. Eles enfrentam uma força demoníaca, Valak, que assume a forma de uma freira, revelando segredos profanos em uma abadia.</P>
+                    <!-- Preço-->
+                     <span> R$ 22,00 </span>
+             </label>
+
+             <label class="card">
+                <!-- Checkbox que identifica se o item esta selecionado-->
+                 <input type="checkbox" id="Avatar">
+                 <!-- Imagem do produto-->
+                  <img src="Assets/avatar.jpg" alt="Avatar">
+                  <!-- Nome do produto-->
+                   <h2> Avatar: O Caminho Da Água </h2>
+                   <!-- Descrição-->
+                    <P> Em Avatar: O Caminho da Água (2022), uma década após a primeira batalha, Jake Sully e Neytiri formaram uma família, mas são forçados a deixar sua casa na floresta. Como refugiados, buscam abrigo com o clã Metkayina nos oceanos de Pandora, aprendendo a adaptar-se à vida marinha enquanto enfrentam o retorno de uma ameaça humana.</P>
+                    <!-- Preço-->
+                     <span> R$ 22,00 </span>
+             </label>
+
+             <label class="card">
+                <!-- Checkbox que identifica se o item esta selecionado-->
+                 <input type="checkbox" id="O Diado Veste Prada">
+                 <!-- Imagem do produto-->
+                  <img src="Assets/diaboVestePrada2.jpg" alt="O Diabo Veste Prada">
+                  <!-- Nome do produto-->
+                   <h2> O Diabo Veste Prada 2 </h2>
+                   <!-- Descrição-->
+                    <P> "O Diabo Veste Prada 2" acompanha Miranda Priestly (Meryl Streep) enfrentando o declínio das revistas tradicionais e o colapso da Runway na era digital. Para salvar sua carreira, ela precisa superar o orgulho e negociar com Emily Charlton (Emily Blunt), sua ex-assistente, agora uma poderosa executiva de um grupo de luxo. Andy (Anne Hathaway) retorna como consultora.</P>
+                    <!-- Preço-->
+                     <span> R$ 22,00 </span>
+             </label>
+
+             <label class="card">
+                <!-- Checkbox que identifica se o item esta selecionado-->
+                 <input type="checkbox" id="Homem-Aranha">
+                 <!-- Imagem do produto-->
+                  <img src="Assets/homemAranha.jpg" alt="Homem-Aranha">
+                  <!-- Nome do produto-->
+                   <h2> Homem-Aranha Longe De Casa</h2>
+                   <!-- Descrição-->
+                    <P> "Homem-Aranha: Longe de Casa" acompanha Peter Parker (Tom Holland) lidando com a revelação de sua identidade, o que arruina sua vida e de seus amigos. Ao pedir ajuda ao Doutor Estranho para apagar a memória do mundo, o feitiço dá errado, trazendo vilões de outros universos (Doutor Octopus, Electro, Duende Verde).</P>
+                    <!-- Preço-->
+                     <span> R$ 22,00 </span>
+             </label>
+
+             <label class="card">
+                <!-- Checkbox que identifica se o item esta selecionado-->
+                 <input type="checkbox" id="Velozes e Furiosos">
+                 <!-- Imagem do produto-->
+                  <img src="Assets/velozesEFuriosos.jpg" alt="Velozes e Furiosos">
+                  <!-- Nome do produto-->
+                   <h2> Velozes e Furiosos </h2>
+                   <!-- Descrição-->
+                    <P> "Velozes e Furiosos" foca em Brian O'Conner (Paul Walker), um policial disfarçado infiltrado no submundo das corridas de rua em Los Angeles para capturar Dominic Toretto (Vin Diesel). Toretto é suspeito de roubar cargas eletrônicas. Brian se envolve com a equipe de Dom e sua irmã, Mia, dividindo-se entre o dever e a amizade.</P>
+                    <!-- Preço-->
+                     <span> R$ 22,00 </span>
+                     </label>
+           </div>
+            <!-- Botão que chama a função calcular() para somar o pedido-->
+             <button onclick="calcular()"> Calcular Pedido</button>
+             <!-- Area de resultado do pedido-->
+              <div id="resultado" class="resultado"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
